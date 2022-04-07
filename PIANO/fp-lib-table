@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Espressif")(type "KiCad")(uri "C:/Users/wesle/Documents/SPRING2022/HOPE/PianoPCB/kicad-libraries-main/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/wesle/Downloads/SOIC127P600X175-8N/Library.pretty")(options "")(descr ""))
+)
