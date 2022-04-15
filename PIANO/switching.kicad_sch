@@ -884,7 +884,7 @@
     (pin "1" (uuid 06b90025-e2a0-4de4-bc06-17cd065caa73))
   )
 
-  (symbol (lib_id "Regulator_Switching:AP1509-50SG-13") (at 120.65 82.55 0) (unit 1)
+  (symbol (lib_id "Regulator_Switching:AP1509-50SG-13") (at 120.65 82.55 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bc01ff81-9305-4338-bb20-915b49251ba4)
     (property "Reference" "U5" (id 0) (at 151.13 71.12 0)
