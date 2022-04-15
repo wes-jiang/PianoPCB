@@ -431,6 +431,10 @@
     [
       "7f576ece-c9bc-4f26-b53f-08232bf521db",
       "Switching Regulator"
+    ],
+    [
+      "dc0bff4d-a643-4c20-a45a-98139025b2e3",
+      "Ext_Spkr2"
     ]
   ],
   "text_variables": {}
