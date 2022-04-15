@@ -1145,8 +1145,8 @@
   (no_connect (at 166.37 173.99) (uuid 078e5fce-dc80-42bb-9ac4-ed74a2790404))
   (no_connect (at 166.37 163.83) (uuid 3ce69f83-56f2-4a87-9f13-f82b2b8f1ebc))
   (no_connect (at 168.91 40.64) (uuid 4ca95deb-2a9b-49bc-8083-5b649feffa66))
-  (no_connect (at 168.91 45.72) (uuid 4ca95deb-2a9b-49bc-8083-5b649feffa66))
-  (no_connect (at 184.15 43.18) (uuid 4ca95deb-2a9b-49bc-8083-5b649feffa66))
+  (no_connect (at 168.91 45.72) (uuid 4ca95deb-2a9b-49bc-8083-5b649feffa67))
+  (no_connect (at 184.15 43.18) (uuid 4ca95deb-2a9b-49bc-8083-5b649feffa68))
   (no_connect (at 72.39 86.36) (uuid b5dc259a-cc0e-4cd4-b417-9db36b34168c))
   (no_connect (at 158.75 36.83) (uuid b5dc259a-cc0e-4cd4-b417-9db36b34168d))
   (no_connect (at 158.75 39.37) (uuid b5dc259a-cc0e-4cd4-b417-9db36b34168e))
@@ -2479,7 +2479,7 @@
     (property "Value" "22-23-2021" (id 1) (at 269.24 29.2099 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" (id 2) (at 260.35 24.13 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 260.35 24.13 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" (id 3) (at 257.81 24.13 0)
@@ -2784,7 +2784,7 @@
     (uuid c7c466c3-e68b-4e4f-a736-198f354b4956)
     (property "Reference" "U3" (id 0) (at 176.53 33.02 0))
     (property "Value" "Opamp_Dual" (id 1) (at 176.53 35.56 0))
-    (property "Footprint" "" (id 2) (at 176.53 43.18 0)
+    (property "Footprint" "Library:SOIC127P600X175-8N" (id 2) (at 176.53 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 176.53 43.18 0)
@@ -3197,7 +3197,7 @@
       (reference "D5") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/dfbdb43d-ada6-42ef-9c58-d3d66952f5cc/767298c4-636e-4e6c-a62b-48710c53182e"
-      (reference "J1") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/0ccf3bde-866e-4231-b785-fc8e0833134f"
       (reference "J2") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_GCT_USB3076-30-A")
@@ -3206,13 +3206,13 @@
       (reference "J3") (unit 1) (value "Barrel_Jack_Switch") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
     )
     (path "/76cec44e-1374-41e1-9e39-24281d608b83"
-      (reference "J4") (unit 1) (value "22-23-2021") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+      (reference "J4") (unit 1) (value "22-23-2021") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/dfbdb43d-ada6-42ef-9c58-d3d66952f5cc/26690c74-9ef1-4714-99af-adaf729b4b1e"
-      (reference "J5") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
+      (reference "J5") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/dfbdb43d-ada6-42ef-9c58-d3d66952f5cc/93a17808-eb11-4e49-9865-233fcfc7508c"
-      (reference "J6") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
+      (reference "J6") (unit 1) (value "640456-3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/7f576ece-c9bc-4f26-b53f-08232bf521db/e9fcf1aa-31df-491c-8bb3-039d180f20f1"
       (reference "L1") (unit 1) (value "39uH") (footprint "Inductor_SMD:L_10.4x10.4_H4.8")
@@ -3275,7 +3275,7 @@
       (reference "U3") (unit 1) (value "Opamp_Dual") (footprint "Library:SOIC127P600X175-8N")
     )
     (path "/c7c466c3-e68b-4e4f-a736-198f354b4956"
-      (reference "U3") (unit 2) (value "Opamp_Dual") (footprint "")
+      (reference "U3") (unit 2) (value "Opamp_Dual") (footprint "Library:SOIC127P600X175-8N")
     )
     (path "/149bff05-5e4c-49ef-9543-dc3c92cf2fdc"
       (reference "U3") (unit 3) (value "Opamp_Dual") (footprint "Library:SOIC127P600X175-8N")
